@@ -21,4 +21,7 @@
  })();
 </script>
 
+SKU : <jcr:nodeProperty node="${currentNode}" name="sku"/>
+TRKREF : <jcr:nodeProperty node="${currentNode}" name="trkref"/>  
+
 Reevoo code :<reevoo:mark sku="test" trkref="AHJ" baseURI="http://mark.reevoo.com/reevoomark/embeddable_reviews.html" />

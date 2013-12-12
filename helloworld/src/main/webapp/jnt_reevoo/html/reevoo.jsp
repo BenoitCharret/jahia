@@ -17,7 +17,7 @@
 	<template:addResources type="css" resources="//mark.reevoo.com/stylesheets/reevoomark/embedded_reviews.css"/>
 </c:if>
 
-<<template:addResources>
+<template:addResources>
 <script id="reevoomark-loader">
  (function() {
 	 var myscript = document.createElement('script');
